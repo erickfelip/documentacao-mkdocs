@@ -49,7 +49,7 @@ seja algo claro e simples de ser entendido.
 
 ## Rodando o Servidor
 
-!!! tldr "Conectando o servidor"
+git push -u origin main
 
     Para o servidor rodar execute o comando no terminal `mkdocs serve`, assim 
     um ip vai ser dado para você. 
@@ -69,8 +69,14 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
     O nome da imagem tem que ter o prefixo do nome do arquivo que você está documentando,
     seguido por um numeral começado do um. Exemplo: ip-permission-1.png
 
-## github
+## Github
+ 
+!!! tldr "Enviando sua documentação para o GitHub"
 
+    Sempre que alterar algo em sua documentação, utilize o comando no seu terminal
+    `git add .` para adicionar o que foi mudado no seu repositorio, feito isso
+    faça seu commit informando o que foi alterado na documentação utilizando o 
+    comando `git commit`  
 
 
 

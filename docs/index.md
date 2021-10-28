@@ -35,6 +35,11 @@ seja algo claro e simples de ser entendido.
 
 ![VSCodium1](\img\vsc-01.PNG)
 
+!!! tip "Versão do vscodium"
+    Busque o executável, nomeado de `VSCodiumSetup-x64-1.61.2.exe`
+
+![ex2](\img\vsc-02.png)
+
 ## Instalação do Mkdocs
 
 !!! tldr "Instalando o Mkdocs"
@@ -84,12 +89,12 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
     - Escrita: Nome de todos os arquivos em inglês.
     - Arquivos: Todas as letras minúsculas separados por underline(_) e com 
     a extensão .md. Exemplo: ip_permission.md
-    - Pastas: Todas as letras minúsculas e separados por underline. Exemplo:
+    - Pastas: Todas as letras minúsculas e separadas por underline. Exemplo:
     ip_permission
     - Fotos: Todas as letras minúsculas e separados por traço(-). 
     O nome da imagem tem que ter o prefixo do nome do arquivo que você 
     está documentando,
-    seguido por um numeral começado do um. Exemplo: ip-permission-1.png
+    seguido por um numeral começando do um. Exemplo: ip-permission-1.png
 
 ## Github
  
@@ -97,14 +102,9 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
 
     Sempre que alterar algo em sua documentação, utilize o comando no seu 
     terminal
-    `git add .` para adicionar o que foi mudado no seu repositorio, feito isso
+    `git add .` para adicionar o que foi mudado no seu repositório, feito isso
     faça seu commit informando o que foi alterado na documentação utilizando o 
     comando `git commit`  
-
-!!! tldr "Dando o `push` para o seu repositorio"
-
-    Após adicionar as alterações e comitar, você tem que enviar para o github, 
-    faremos isso através do comando `git push (nome-da-branch)` 
 
 !!! tldr "Criando uma branch" 
     
@@ -114,8 +114,17 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
     trabalhando
     em equipe, pois assim, você faz a alteração na sua branch, evitando de 
     modificar
-    a branch `main` do projeto na qual está trabalhando, em seguida você envia
-    envia uma `Pull request` para avisar que alterações forem feitas no projeto
-    logo em seguida, essa `Pull request` será analizada, e consequentemente 
-    aceita
-    se não houver erros.
+    a branch `main` do projeto na qual está trabalhando.
+
+!!! tldr "Dando o `push` para o seu repositório"
+
+    Após adicionar as alterações e comitar, você tem que enviar para o github, 
+    faremos isso através do comando `git push origin (nome_da_branch)` 
+
+!!! tldr "Pull Request" 
+
+    logo em seguida, você envia um `Pull request` no github para adicionar os 
+    novos arquivos da sua branch para a main, o `Pull request` será analisado,
+    e aceito se não houver erros.
+
+

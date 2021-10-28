@@ -78,5 +78,21 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
     faça seu commit informando o que foi alterado na documentação utilizando o 
     comando `git commit`  
 
+!!! tldr "Dando o `push` para o seu repositorio"
 
+    Após adicionar as alterações e comitar, você tem que enviar para o github, 
+    faremos isso através do comando `git push (nome-da-branch)` 
+
+!!! tldr "Criando uma branch" 
+    
+    Para criar uma branch, faremos isso através do comando `git checkout -b nome_da_branch`,
+    feito isso sua branch está criada, evitando conflitos se você estiver trabalhando
+    em equipe, pois assim, você faz a alteração na sua branch, evitando de modificar
+    a branch `main` do projeto na qual está trabalhando, em seguida você envia
+    envia uma `Pull request` para avisar que alterações forem feitas no projeto
+    logo em seguida, essa `Pull request` será analizada, e consequentemente aceita
+    se não houver erros.
+
+
+    
 

@@ -1,0 +1,13 @@
+site_name: Desafio Documentação
+
+theme:
+  name: material
+  
+markdown_extensions:
+  - admonition
+  - def_list
+
+markdown_extensions:
+  - admonition
+  - pymdownx.keys
+  

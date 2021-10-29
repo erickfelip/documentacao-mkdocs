@@ -49,12 +49,3 @@ mkdocs serve
 <td\>
 <tr\>
 <table\>
-
-## Orientador: 
-
-<table>
-<tr><td align="center"><a href="https://github.com/allythy"><kbd><img src="https://avatars3.githubusercontent.com/allythy?size=400" width="100px;" alt=""/></kbd><br\>
-<sub><br><b>Allythy</b></sub></a><br>
-<td\>
-<tr\>
-<table\>

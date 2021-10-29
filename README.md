@@ -44,9 +44,12 @@ mkdocs serve
 
 
 <table>
+
 <tr><td align="center"><a href="https://github.com/erickfelip"><kbd><img src="https://avatars3.githubusercontent.com/erickfelip?size=400" width="100px;" alt=""/></kbd><br /><sub><b>Erick Felipe</b></sub></a>
+  
 <a href="https://github.com/M4TY21"><kbd><img src="https://avatars3.githubusercontent.com/M4TY21?size=400" width="100px;" alt=""/></kbd><br\>
 <sub><br><b>Matheus Eugênio de Moura</b></sub></a>
+
 <td\>
 <tr\>
 <table\>

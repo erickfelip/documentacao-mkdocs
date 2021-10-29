@@ -127,4 +127,6 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
     novos arquivos da sua branch para a main, o `Pull request` será analisado,
     e aceito se não houver erros.
 
+!!! tldr "Criando um Pull Request"
+
 

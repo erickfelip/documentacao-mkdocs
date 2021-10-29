@@ -141,6 +141,8 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
 
 ![ex](\img\create-pr-04.png)
 
+Em seguida clique no botão `Create Pull Request` 
+
 !!! done "Feito isso sua Pull Request foi criada!"
 
 ![ex](\img\create-pr-05.png)

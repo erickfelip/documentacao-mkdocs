@@ -73,9 +73,7 @@ seja algo claro e simples de ser entendido.
 
 ## Rodando o Servidor
 
-git push -u origin main
-
-    Para o servidor rodar execute o comando no terminal `mkdocs serve`, assim 
+    Para o servidor rodar execute o comando no terminal "mkdocs serve", assim 
     um ip vai ser dado para você. 
 
 ![ex3](\img\sv-01.PNG)
@@ -120,12 +118,6 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
 
     Após adicionar as alterações e comitar, você tem que enviar para o github, 
     faremos isso através do comando `git push origin (nome_da_branch)` 
-
-!!! tldr "Pull Request" 
-
-    logo em seguida, você envia um `Pull request` no github para adicionar os 
-    novos arquivos da sua branch para a main, o `Pull request` será analisado,
-    e aceito se não houver erros.
 
 !!! tldr "Pull Request" 
 

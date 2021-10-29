@@ -1,0 +1,552 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.5">
+    
+    
+      
+        <title>Desafio Documentação</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.cdeb8541.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#como-documentar" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Desafio Documentação" class="md-header__button md-logo" aria-label="Desafio Documentação" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Desafio Documentação
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Como Documentar?
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Desafio Documentação" class="md-nav__button md-logo" aria-label="Desafio Documentação" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Desafio Documentação
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Como Documentar?
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Como Documentar?
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#primeiros-passos" class="md-nav__link">
+    Primeiros passos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-do-python" class="md-nav__link">
+    Instalação do Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-do-vscodium" class="md-nav__link">
+    Instalação do VSCodium
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-do-mkdocs" class="md-nav__link">
+    Instalação do Mkdocs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criando-ambiente-virtual" class="md-nav__link">
+    Criando Ambiente Virtual
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rodando-o-servidor" class="md-nav__link">
+    Rodando o Servidor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padroes-de-nomenclatura" class="md-nav__link">
+    Padrões de nomenclatura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    Github
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#primeiros-passos" class="md-nav__link">
+    Primeiros passos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-do-python" class="md-nav__link">
+    Instalação do Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-do-vscodium" class="md-nav__link">
+    Instalação do VSCodium
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacao-do-mkdocs" class="md-nav__link">
+    Instalação do Mkdocs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criando-ambiente-virtual" class="md-nav__link">
+    Criando Ambiente Virtual
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rodando-o-servidor" class="md-nav__link">
+    Rodando o Servidor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#padroes-de-nomenclatura" class="md-nav__link">
+    Padrões de nomenclatura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#github" class="md-nav__link">
+    Github
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="como-documentar">Como Documentar?</h1>
+<p>O processo de documentação consiste em, organizar um conjunto de documentos com
+ o propósito de esclarecer ou provar alguma coisa.</p>
+<div class="admonition tldr">
+<p class="admonition-title">Vamos documentar</p>
+<p>Como vamos fazer isso? </p>
+</div>
+<h2 id="primeiros-passos">Primeiros passos</h2>
+<p>Primeiro devemos saber o que deve ser documentado, diante disso, iremos 
+elaborar
+um padrão a ser seguido pela documentação, para quando outra pessoa consultar,
+seja algo claro e simples de ser entendido.</p>
+<h2 id="instalacao-do-python">Instalação do Python</h2>
+<div class="admonition tldr">
+<p class="admonition-title">Para instalar</p>
+<p>Entre no link <a href="https://www.python.org/downloads/release/python-390/" 
+target = "_blank">clicando aqui</a>.</p>
+<p>Em seguida, baixe o Instalador, como segue no anexo abaixo:</p>
+</div>
+<p><img alt="ex1" src="\img\py-01.PNG" /></p>
+<h2 id="instalacao-do-vscodium">Instalação do VSCodium</h2>
+<div class="admonition tldr">
+<p class="admonition-title">Como instalar</p>
+<p>Entre no site do VSCodium <a href="https://vscodium.com/" target = "_blank">
+clicando aqui</a>.</p>
+<p>E aperte em <code>Download latest release</code> para baixar.</p>
+</div>
+<p><img alt="VSCodium1" src="\img\vsc-01.PNG" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Versão do vscodium</p>
+<p>Busque o executável, nomeado de <code>VSCodiumSetup-x64-1.61.2.exe</code></p>
+</div>
+<p><img alt="ex2" src="\img\vsc-02.png" /></p>
+<h2 id="instalacao-do-mkdocs">Instalação do Mkdocs</h2>
+<div class="admonition tldr">
+<p class="admonition-title">Instalando o Mkdocs</p>
+<p>Feita instalação do <code>Python</code>, feito isso abra sua IDE de desenvolvimento
+(Vscode, Eclipse, Sublime) e execute o comando <code>install mkdocs</code> para 
+windows,
+caso use linux, no seu gerenciador de pacotes, utilize <code>sudo apt 
+install mkdocs</code>  </p>
+</div>
+<h2 id="criando-ambiente-virtual">Criando Ambiente Virtual</h2>
+<div class="admonition tldr">
+<p class="admonition-title">Criação do ambiente virtual para o desenvolvimento</p>
+<p>Com o terminal aberto em sua máquina, execute o comando <code>python -m venv 
+.venv</code></p>
+<p>se seu Sistema Operacional for Windows, Caso seja Linux, utilize <code>python3 
+-m venv .venv</code></p>
+</div>
+<div class="admonition tldr">
+<p class="admonition-title">Ativando o ambiente virtual</p>
+<p>Para ativar o ambiente virtual, execute o comando
+ <code>.venv\Scripts\activate.bat</code>
+no windows, </p>
+<p>E no linux <code>source .venv/bin/activate</code>, feito isso seu ambiente 
+está ativado.</p>
+</div>
+<p><img alt="ex2" src="\img\venv-01.PNG" /> </p>
+<h2 id="rodando-o-servidor">Rodando o Servidor</h2>
+<pre><code>Para o servidor rodar execute o comando no terminal "mkdocs serve", assim 
+um ip vai ser dado para você.
+</code></pre>
+<p><img alt="ex3" src="\img\sv-01.PNG" /></p>
+<p>Feito isso, seu servidor já está rodando e está pronto para documentar. </p>
+<h2 id="padroes-de-nomenclatura">Padrões de nomenclatura</h2>
+<div class="admonition info">
+<p class="admonition-title">Padrão de nomenclatura</p>
+<ul>
+<li>Escrita: Nome de todos os arquivos em inglês.</li>
+<li>Arquivos: Todas as letras minúsculas separados por underline(_) e com 
+a extensão .md. Exemplo: ip_permission.md</li>
+<li>Pastas: Todas as letras minúsculas e separadas por underline. Exemplo:
+ip_permission</li>
+<li>Fotos: Todas as letras minúsculas e separados por traço(-). 
+O nome da imagem tem que ter o prefixo do nome do arquivo que você 
+está documentando,
+seguido por um numeral começando do um. Exemplo: ip-permission-1.png</li>
+</ul>
+</div>
+<h2 id="github">Github</h2>
+<div class="admonition tldr">
+<p class="admonition-title">Enviando sua documentação para o GitHub</p>
+<p>Sempre que alterar algo em sua documentação, utilize o comando no seu 
+terminal
+<code>git add .</code> para adicionar o que foi mudado no seu repositório, feito isso
+faça seu commit informando o que foi alterado na documentação utilizando o 
+comando <code>git commit</code>  </p>
+</div>
+<div class="admonition tldr">
+<p class="admonition-title">Criando uma branch</p>
+<p>Para criar uma branch, faremos isso através do comando <code>git checkout -b 
+nome_da_branch</code>,
+feito isso sua branch está criada, evitando conflitos se você estiver 
+trabalhando
+em equipe, pois assim, você faz a alteração na sua branch, evitando de 
+modificar
+a branch <code>main</code> do projeto na qual está trabalhando.</p>
+</div>
+<div class="admonition tldr">
+<p class="admonition-title">Dando o <code>push</code> para o seu repositório</p>
+<p>Após adicionar as alterações e comitar, você tem que enviar para o github, 
+faremos isso através do comando <code>git push origin (nome_da_branch)</code> </p>
+</div>
+<div class="admonition tldr">
+<p class="admonition-title">Pull Request</p>
+<p>logo em seguida, você envia um <code>Pull request</code> no github para adicionar os 
+novos arquivos da sua branch para a main, o <code>Pull request</code> será analisado,
+e aceito se não houver erros.</p>
+</div>
+<div class="admonition tldr">
+<p class="admonition-title">Criando um Pull Request</p>
+<p>Com a nova branch criada, alterações adicionadas e o commit feito, iremos 
+da um <code>git push origin (nome_da_branch)</code>, assim a pull request foi criada.</p>
+</div>
+<p><img alt="ex" src="\img\create-pr-02.png" /> </p>
+<div class="admonition tldr">
+<p class="admonition-title">Acessando o GitHub</p>
+<p>Abrindo a página do repositório irá aparecer a seguinte mensagem.</p>
+</div>
+<p><img alt="ex" src="\img\create-pr-03.png" /></p>
+<div class="admonition info">
+<p class="admonition-title">Comparação</p>
+<p>A pull request será comparada para ver o que foi alterado.</p>
+</div>
+<p><img alt="ex" src="\img\create-pr-04.png" /></p>
+<p>Em seguida clique no botão <code>Create Pull Request</code> </p>
+<div class="admonition done">
+<p class="admonition-title">Feito isso sua Pull Request foi criada!</p>
+</div>
+<p><img alt="ex" src="\img\create-pr-05.png" /></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.8397ff9e.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.1e84347e.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -127,4 +127,29 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
     novos arquivos da sua branch para a main, o `Pull request` será analisado,
     e aceito se não houver erros.
 
+!!! tldr "Pull Request" 
+
+    logo em seguida, você envia um `Pull request` no github para adicionar os 
+    novos arquivos da sua branch para a main, o `Pull request` será analisado,
+    e aceito se não houver erros.
+
+!!! tldr "Criando um Pull Request"
+    Com a nova branch criada, alterações adicionadas e o commit feito, iremos 
+    da um `git push origin (nome_da_branch)`, assim a pull request foi criada.
+
+![ex](\img\create-pr-02.png) 
+
+!!! tldr "Acessando o GitHub"
+    Abrindo a página do repositório irá aparecer a seguinte mensagem.
+
+![ex](\img\create-pr-03.png)
+
+!!! info "Comparação"
+    A pull request será comparada para ver o que foi alterado.
+
+![ex](\img\create-pr-04.png)
+
+!!! done "Feito isso sua Pull Request foi criada!"
+
+![ex](\img\create-pr-05.png)
 

@@ -96,18 +96,18 @@ Feito isso, seu servidor já está rodando e está pronto para documentar.
 
 ## Padrões de nomenclatura 
 
-    - Escrita: Nome de todos os arquivos em inglês.
+- Escrita: Nome de todos os arquivos em inglês.
 
-    - Arquivos: Todas as letras minúsculas separados por underline(_) e com 
-    a extensão .md. Exemplo: ip_permission.md
+- Arquivos: Todas as letras minúsculas separados por underline(_) e com 
+a extensão .md. Exemplo: ip_permission.md
 
-    - Pastas: Todas as letras minúsculas e separadas por underline. Exemplo:
-    ip_permission
+- Pastas: Todas as letras minúsculas e separadas por underline. Exemplo:
+ip_permission
 
-    - Fotos: Todas as letras minúsculas e separados por traço(-). 
-    O nome da imagem tem que ter o prefixo do nome do arquivo que você 
-    está documentando,
-    seguido por um numeral começando do um. Exemplo: ip-permission-1.png
+- Fotos: Todas as letras minúsculas e separados por traço(-). 
+O nome da imagem tem que ter o prefixo do nome do arquivo que você 
+está documentando,
+seguido por um numeral começando do um. Exemplo: ip-permission-1.png
 
 # Github
  
